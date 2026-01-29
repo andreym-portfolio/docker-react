@@ -7,5 +7,5 @@ RUN npm install
 
 COPY . .
 
-
+#this is command to run
 CMD ["npm", "run", "start"]
