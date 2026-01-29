@@ -2,6 +2,7 @@ FROM node:lts-alpine
 
 WORKDIR '/app'
 
+#copy json package
 COPY package.json .
 RUN npm install
 
